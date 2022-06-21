@@ -650,7 +650,9 @@ body {
     border-radius: 4px;
 }
 
+/*  */
 .portfolio-item {
+    display: block;
     background: #FFFFFF;
     transition: box-shadow 250ms var(--timig-function);
 }
@@ -690,6 +692,7 @@ body {
 }
 
 /* hover overlay - start */
+
 .portfolio-item:hover .portfolio-text-hover {
     transform: translateY(0);
 }
