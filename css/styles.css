@@ -652,7 +652,6 @@ body {
 
 /*  */
 .portfolio-item {
-    display: block;
     background: #FFFFFF;
     transition: box-shadow 250ms var(--timig-function);
 }
