@@ -103,12 +103,14 @@ body {
     color: var(--accent-color);
     padding-top: 24px;
     padding-bottom: 25px;
-    /* margin-top: -24px;
-    margin-bottom: -24px; */
+  
 }
 
 .footer-logo {
+    display: block;
     padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 25px;
 }
 
 .header-logo-span {
@@ -551,7 +553,7 @@ body {
 .footer-box-list {
     display: flex;
     /* justify-content: center; */
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .footer-box-item {
